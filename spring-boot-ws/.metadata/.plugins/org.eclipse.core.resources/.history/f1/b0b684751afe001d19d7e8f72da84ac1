@@ -1,0 +1,14 @@
+package com.cts.ecart.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity(name = "products")
+public class Product {
+	
+	private int productId;
+	private String productTitle;
+	
+	
+	
+
+}
